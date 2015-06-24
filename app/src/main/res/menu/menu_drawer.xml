@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/workout1"
+        android:title="Workouts"
+        >
+        <menu>
+        <item
+            android:id="@+id/workout2"
+            android:title="shoulders/biceps"
+            android:icon="@drawable/ic_hand_biceps"/>
+        <item
+            android:id="@+id/workout3"
+            android:title="cardio"
+            android:icon="@drawable/ic_hand_biceps"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/exercise1"
+        android:title="Exercises"
+        >
+        <menu>
+        <item
+            android:id="@+id/exercise1"
+            android:title="Benchpress"
+            android:icon="@drawable/ic_dumbell"/>
+        <item
+            android:id="@+id/exercise2"
+            android:title="Squat"
+            android:icon="@drawable/ic_dumbell"/>
+        <item
+            android:id="@+id/exercise3"
+            android:title="Pull-up"
+            android:icon="@drawable/ic_dumbell"/>
+        </menu>
+    </item>
+
+
+
+</menu>
